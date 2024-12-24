@@ -4,8 +4,31 @@ Highlights & Device Specific Changes:
 ====================
 
 Build type: Monthly
-Device: Redmi Note 11 (spes|spesn)
-Device maintainer: Mhammad Alloush
+Device: Redmi Note 11/NFC (spes|spesn)
+Device maintainer: тαиνir
+
+===== 2024.12.24 =====
+• Updated to 11.1
+
+• Add props to improve battery backup
+• Added ability to smarter decisions on whether to use a 2 or 5Ghz AP
+• Brought back fingerprint indicator and it's on correct position
+• Disable default game FPS limit in developer-option
+• Disable QCRIL power saving
+• Disable RescueParty
+• Enable Incremental on the device
+• Enable LZ4 compression for ramdisks
+• Enable Optimized Power Management
+• Enable proximity sensor usage in doze
+• Enable QPower and Deep sleep at the same time
+• Extend audio offload buffer size to 256kb
+• Improve I/O scheduler
+• Make the UI more smoother
+• Set 15 seconds as default screen timeout
+• Set 60Hz max refresh rate on AOD & Ambient Display
+• Update Adreno drivers to v757
+• Update blobs from HyperOS on HyperOS Global stable v1.0.7.0.TGCMIXM_91ee997f22_13.0
+• Misc. Fixes and Improvements
 
 ===== 2024.06.01 =====
 
