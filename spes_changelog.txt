@@ -7,6 +7,15 @@ Build type: Monthly
 Device: Redmi Note 11/NFC (spes|spesn)
 Device maintainer: тαиνir
 
+===== 2024.12.25 =====
+• Hotfix: Update to 11.1
+• Fingerprint is now functional for Goodix sensor users
+• Decrease swappiness to 60
+• Fix overheating issue while using the phone
+• Unset NEED_AIDL_NDK_PLATFORM_BACKEND
+• Use libidl_shim and libpiex_shim from source
+• Miscellaneous fixes and improvements
+
 ===== 2024.12.24 =====
 • Updated to 11.1
 
