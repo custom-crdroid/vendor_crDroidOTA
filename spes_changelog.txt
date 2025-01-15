@@ -3,9 +3,18 @@
 Highlights & Device Specific Changes:
 ====================
 
-Build type: Monthly
+Build type: EOL
 Device: Redmi Note 11/NFC (spes|spesn)
 Device maintainer: тαиνir
+
+===== 2025.01.15 =====
+• Updated to 11.1.0
+
+• Update build fingerprint
+• Double tap to wake now works by default
+• Remove wrong spes indian variant declaration from device tree
+• Underhood changes and improvements
+• Notes: This is the final update for this ROM. From now on, the source owner will maintain Project Matrixx. Hopefully, I'll see you there.
 
 ===== 2024.12.25 =====
 • Hotfix: Update to 11.1
