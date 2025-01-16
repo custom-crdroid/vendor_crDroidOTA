@@ -2,6 +2,37 @@ Highlights & Device Specific Changes:
 Build type: Monthly
 Device: POCO F3 (alioth)
 Device maintainer: Dark_phoenix
+=============================================================
+
+===== 2025.01.16 [QPR1] [Final] =====
+
+[Source]:
+- Removed ios 16 battery style
+- Removed AI core and pixel studio
+- Improved bootloader spoofer (now bank apps don't cry and detect device as rooted)
+- Fix notch when using split notification
+- Reduce jitter when expanding qs with media player
+- Reduce jitter when scrolling
+- update Clear-sky —> Clear sky
+- Added Compact media player
+- Remove lockscreen fonts ( we don't have any custom clocks to apply these fonts to)
+- Display auto rotate settings instead of toggle
+- Yet again fix avatar for qpr1
+- Launcher3: Fix lens crash in launcher QSB and All app search bar
+- Custom themed icon pack option removed thanks to google for fucking up
+- Fixed hiding private space with launcher3
+- Disable forced FRP (fuck google)
+- Update prebuilt google sysconfigs 
+- Tweaked launcher recent button 
+
+[Device]:
+- Switch to clang 20
+- Enable treating 170m as sRGB for consistent color rendering fixes color shift when going to recent page
+- Fix display cutout for notch 
+- yet again fix lecia cam compressing picture to 1.6MP
+
+
+===== 2024.12.15 [HotFix] =====
 
 * More color modes
 * Smart 5g
